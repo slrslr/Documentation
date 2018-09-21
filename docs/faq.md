@@ -1,4 +1,4 @@
-ls -al /var/run/tor/control.authcookie# Frequently asked questions
+# Frequently asked questions
 
 
 #### Do I need to have a port opened?
@@ -66,7 +66,7 @@ edit your torrc configuration file by removing `#` from line `# ControlPort 9051
 
 #### How to make ZeroNet work with Tor under Linux?
 
- - `apt install tor`
+ - `sudo apt install tor`
  - `sudo nano /etc/tor/torrc`
  - Remove the `#` character from lines `ControlPort 9051` and `CookieAuthentication 1` (line ~57)
  - `/etc/init.d/tor restart`
